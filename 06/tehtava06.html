@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Harjoitus 06</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    
+</head>
+
+<script>
+
+const Olio = {
+
+    etunimi: "Matti",
+    sukunimi: "Mainio",
+    ika: 30,
+    sukupuoli: "mies",
+    harrastukset: ['golf', 'kalastus', 'tennis'],
+    jasen: true
+}
+    console.log(Olio);
+
+ JSON.stringify(Olio)
+
+const harjoitus = {}
+harjoitus.etunimi = "Magnus";
+console.log(harjoitus);
+harjoitus.sukunimi = "Wright";
+console.log(harjoitus);
+harjoitus.etunimi = " Ferdinand";
+console.log(harjoitus);
+delete harjoitus.etunimi;
+console.log(harjoitus);
+
+
+function muutaOlioksi() {
+         let teksti = document.getElementById("tekstikentta").value;
+         let olio = JSON.parse(teksti);
+         console.log(olio);
+    }
+
+
+
+
+
+
+</script>
