@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 10%;
+    background-color: #E0E0F8;
+}
+
+button{
+    background-color: #FE2EC8;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 15em;
+
+}
+.bar-chart {
+  display: flex;
+  background-color: #eee;
+  width: 600px;
+  height: 30px;
+  align-items: stretch;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+
+#nollaa{
+margin-top: 4em;
+background-color:#5882FA;
+font-weight: bold;
+border-radius: 15em;
+padding: 0.5em;
+
+}
+
